@@ -1,5 +1,5 @@
 'use strict'
-import { keccak256 } from 'ethereumjs-util'
+import { keccak256 } from 'sbr-util'
 import { CheckpointTrie as Trie } from '../dist'
 
 // References:

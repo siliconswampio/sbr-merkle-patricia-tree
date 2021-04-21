@@ -1,6 +1,6 @@
 import Semaphore from 'semaphore-async-await'
 import { LevelUp } from 'levelup'
-import { keccak, KECCAK256_RLP } from 'ethereumjs-util'
+import { keccak, KECCAK256_RLP } from 'sbr-util'
 import { DB, BatchDBOp, PutBatch } from './db'
 import { TrieReadStream as ReadStream } from './readStream'
 import { bufferToNibbles, matchingNibbleLength, doKeysMatch } from './util/nibbles'

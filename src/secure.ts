@@ -1,4 +1,4 @@
-import { keccak256 } from 'ethereumjs-util'
+import { keccak256 } from 'sbr-util'
 import { CheckpointTrie } from './checkpointTrie'
 import { Proof } from './baseTrie'
 

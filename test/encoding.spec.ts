@@ -1,5 +1,5 @@
 import tape from 'tape'
-import { toBuffer } from 'ethereumjs-util'
+import { toBuffer } from 'sbr-util'
 import { CheckpointTrie } from '../src'
 
 const trie = new CheckpointTrie()

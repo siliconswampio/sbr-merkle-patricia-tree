@@ -74,7 +74,7 @@ trie
 ```typescript
 import level from 'level'
 import rlp from 'rlp'
-import { BN, bufferToHex } from 'ethereumjs-util'
+import { BN, bufferToHex } from 'sbr-util'
 import Account from 'ethereumjs-account'
 import { SecureTrie as Trie } from 'sbr-merkle-patricia-tree'
 
